@@ -10,7 +10,7 @@
   <!-- Защита домена -->
   <script>
     (function(){
-      const allowed = ["ezlhucfkhoyaumjwofbf.github.io", "localhost", "127.0.0.1"];
+     const allowed = ["rostk-cpu.github.io", "localhost", "127.0.0.1"];
       const host = location.hostname;
       if (!allowed.some(d => host === d || host.endsWith("." + d))) {
         document.documentElement.innerHTML = '<body style="background:#050c07;color:#e03535;font-family:monospace;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;font-size:14px;letter-spacing:2px;text-align:center">⚠ НЕСАНКЦИОНИРОВАННЫЙ ДОСТУП<br><span style="color:#4a7558;font-size:11px;margin-top:8px;display:block">НИИЧАЗ // ДОСТУП С ДАННОГО ДОМЕНА ЗАПРЕЩЁН</span></body>';
