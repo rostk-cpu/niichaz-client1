@@ -2,8 +2,8 @@
 // НИИЧАЗ — Supabase клиент
 // ============================================================
 
-const SUPABASE_URL = "https://ezlhucfkhoyaumjwofbf.supabase.co";
-const SUPABASE_KEY = "sb_publishable_WIZRuvTCUXIcAdCe3MzY-A_aA5u70Si";
+const SUPABASE_URL = "https://ydnhodpwgatbifqplktk.supabase.co";
+const SUPABASE_KEY = "sb_publishable_stPtxcOJv4GyhefgLOYQgw_ZOz91hx5";
 
 // Инициализация клиента через CDN
 const { createClient } = supabase;
